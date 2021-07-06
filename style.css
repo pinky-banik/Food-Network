@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    
+    padding bottom: 150 px;
+}
+.top-banner{
+    height: 1200px;
+    background-image: url("images/top-banner.jpg");
+    background-repeat: no-repeat;
+    background-position:right-bottom;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 2%;
+    max-height:500px;
+}
+.order-food{
+    margin-top: 15%;
+}
+h1{
+    font-size: 100px;
+    margin: 2px ;
+    color: rgb(80, 79, 79)
+}
+h1 span{
+    color: purple;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(180deg,rgb(100, 13, 13), purple);
+    padding: 30px 50px;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgb(170, 12, 123);
+    margin-top: 10%px;
+    font-size: 25px;
+
+}
+p{
+    color: dimgray;
+    margin: 5% 0% 10% 0%;
+    font-size: 30px;
+}
+.half-width img{
+    width: 100%;
+}
+.about{
+    height: 750px;
+    background-image: url("images/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.about-me{
+    font-size: 75px;
+}
+#about-image{
+    max-height: 700px;
+    max-width: 441px;
+    margin-left: 20%;
+    margin-bottom: 0;
+}
+.about-div{
+    margin-left: 0;
+    margin-top: 7%;
+
+}
+.my-recipes{
+    height: 1200px;
+
+}
+.recipes{
+    text-align: center;
+    margin: 3% 20%;
+}
+.all-recipes{
+     padding: 5px;
+     margin:5%;
+}
+.single-recipe{
+    width: 25%;
+    float:left;
+    margin: 2% 2%;
+    padding: 2% 2%;
+    box-shadow: 0 0 50px gray;
+    border-radius: 50px;
+
+}
+.recipe-image{
+    max-height: 13%;
+    max-width:100%;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+.reaction {
+    margin: 10%;
+    padding: 10%;
+    box-shadow: 0 0 30px gray;
+    border-radius: 50px;
+
+}
+.all-social-media{
+    margin: -15% ;
+    text-align: center;
+    padding-left: 5%;
+}
+.social{
+    float: left;
+    margin:-50px;
+    padding: 10%;
+    text-align: center;
+}
+.social h1{
+    font-size: 80px;
+    color:black;
+    font-size:80px;
+}
+footer{
+    background-color: black;
+    padding: 50px;
+    margin-left: 0;
+    text-align: center;
+    overflow: hiden;
+}
+
+footer h1{
+      font-size: 80px;
+}
+footer h1 span{
+    color:orange;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
